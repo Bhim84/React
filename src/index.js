@@ -8,16 +8,14 @@ import Details from "./details";
 
 import FetchDemo from "./fetch";
 
-let mycourse = ["aa","ff","ee"];
+let mycourse = ["aa", "ff", "ee"];
 class App extends Component {
-  
   render() {
     return (
       <div>
-      <FetchDemo/>
-      <h1>Welcome to React Session</h1>
-        <Details title="this is title..."
-          mycourses={mycourse} count={9}/>
+        <FetchDemo />
+        <h1>Welcome to React Session</h1>
+        <Details title="this is title...." mycourses={mycourse} count={9} />
       </div>
     );
   }
